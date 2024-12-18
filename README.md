@@ -78,3 +78,12 @@ Incorporating Google Trends data with traditional forecasting models markedly en
 [Notebook](https://github.com/humbertoturpo/CapstoneProject2/blob/main/CapstoneGinger.ipynb)
 
 
+
+
+
+
+## **Contact and Further Information**
+**Humberto Sebastian Turpo Huaman**  
+[sebastian.turpo@gmail.com]  
+
+---

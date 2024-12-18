@@ -67,9 +67,8 @@ Incorporating Google Trends data with traditional forecasting models markedly en
 
 
 ## **Next Steps**
-1. **Neural Networks**: Explore advanced architectures, such as recurrent neural networks (RNNs) or long short-term memory (LSTM) networks, to model non-linear relationships.  
-2. **Dataset Expansion**: Apply Gaussian noise to augment the dataset, creating diverse scenarios for better generalization and robustness.  
-3. **Model Optimization**: Focus on hyperparameter tuning for both regression and neural network models to maximize performance.
+1. **Implement Model**: Run the XG Boost model at the beginning of each month, for example, to determine Peruvian ginger exports for June 2026, the model could be run in the first minutes of June 1st.
+2. **Future Directions**: Explore sentiment analysis to gauge the emotional tone of search-related data and continually monitor and update the model to adapt to new trends. Employ computer vision to extract additional insights from visual data for enhanced marketing strategies.
 
 ---
 

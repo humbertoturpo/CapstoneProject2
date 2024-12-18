@@ -5,7 +5,7 @@
 ---
 
 ## **Executive Summary**
-This project predicts Peru's monthly ginger exports through short-term forecasting methods, combining lag-based regression with Google Trends data. By integrating search trends alongside traditional lagged exports, our models significantly improve forecast accuracy. The Lasso Regression model, adjusted for hyperparameters, notably outperformed others in terms of R-squared and error metrics.
+This project predicts Peru's monthly ginger exports through short-term forecasting methods, combining lag-based regression with Google Trends data. By integrating search trends alongside traditional lagged exports, our models significantly improve forecast accuracy. The XGBoost model, adjusted for hyperparameters, notably outperformed others in terms of R-squared and error metrics.
 
 ---
 

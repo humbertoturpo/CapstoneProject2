@@ -76,6 +76,6 @@ Incorporating Google Trends data with traditional forecasting models markedly en
 ## **Outline of Project**
 [Dataset](https://github.com/humbertoturpo/CapstoneProject1/blob/main/data/gingerperu2.xlsx)
 
-[Notebook](https://github.com/humbertoturpo/CapstoneProject1/blob/main/GingerGoogleTrendsPeru.ipynb)
+[Notebook](https://github.com/humbertoturpo/CapstoneProject2/blob/main/CapstoneGinger.ipynb)
 
 

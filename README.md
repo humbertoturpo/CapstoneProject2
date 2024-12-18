@@ -65,8 +65,17 @@ Incorporating Google Trends data with traditional forecasting models markedly en
 
 ---
 
-## **Appendix and Links**
-- **Jupyter Notebook Analysis**: Detailed implementation and analysis are provided in the accompanying Jupyter notebook. [View Notebook](https://github.com/humbertoturpo/CapstoneProject1/blob/main/Capstone2.ipynb).
+
+## **Next Steps**
+1. **Neural Networks**: Explore advanced architectures, such as recurrent neural networks (RNNs) or long short-term memory (LSTM) networks, to model non-linear relationships.  
+2. **Dataset Expansion**: Apply Gaussian noise to augment the dataset, creating diverse scenarios for better generalization and robustness.  
+3. **Model Optimization**: Focus on hyperparameter tuning for both regression and neural network models to maximize performance.
 
 ---
+
+## **Outline of Project**
+[Dataset](https://github.com/humbertoturpo/CapstoneProject1/blob/main/data/gingerperu2.xlsx)
+
+[Notebook](https://github.com/humbertoturpo/CapstoneProject1/blob/main/GingerGoogleTrendsPeru.ipynb)
+
 

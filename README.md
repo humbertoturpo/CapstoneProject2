@@ -20,8 +20,28 @@ Can the inclusion of Google Trends indicators improve the accuracy of lag-based 
 ---
 
 ## **Data Sources**
-1. **Export Data**: Monthly ginger export volumes sourced from official trade statistics.
-2. **Google Trends Data**: Including Web, YouTube, Images, and News searches related to ginger, indexed from the month prior to each export record.
+1. **Export Data**: Monthly export volumes sourced from TradeMap.  
+2. **Google Trends Indicators**: Search interest data (Web, YouTube, Image, and News searches) retrieved from Google Trends.
+   - **Temporal Alignment**: Search data corresponds to the month prior to the export period, ensuring alignment with lagged market behavior.
+
+- **Exports**: Represents the monthly ginger export volumes from Peru.
+- **Exports12**: Refers to lagged data of export volumes, specifically a 12-month lag.
+- **Web**: Indicates lagged search interest data from general web searches associated with food and beverage topics, representing the previous month.
+- **YouTube**: Refers to lagged search interest data from YouTube, capturing food and beverage-related trends from the prior month.
+- **Images**: Represents lagged search interest data from image-based searches related to food and beverage, conducted a month earlier.
+- **News**: Refers to lagged search interest data from news-related searches about food and beverage, reflecting public interest from the previous month.
+
+
+- The **Exports** tag provides the primary dependent variable for forecasting.
+- All other tags (Exports12, Web, YouTube, Images, News) are lagged variables, capturing trends from one month prior. These lagged indices specifically track online searches related to food and beverage topics, enabling predictive modeling by aligning consumer search behavior with subsequent export activities.
+
+
+   | Feature             | Unit       |
+   |---------------------|------------|
+   | Exports             | kg         |
+   | Exports12           | kg         |
+   | Search Indices      | Unitless   |
+
 
 ---
 

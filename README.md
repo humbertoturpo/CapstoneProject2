@@ -5,12 +5,12 @@
 ---
 
 ## **Executive Summary**
-This project predicts Peru's monthly ginger exports through short-term forecasting methods, combining lag-based regression with Google Trends data. By integrating search trends alongside traditional lagged exports, our models significantly improve forecast accuracy. The XGBoost model, adjusted for hyperparameters, notably outperformed others in terms of R-squared and error metrics.
+This project predicts Peru's monthly ginger exports through short-term forecasting methods, combining lag-based regression with Google Trends data. By integrating search trends alongside traditional lagged exports, our models significantly improve forecast accuracy. The XGBoost model with Web Search Data, adjusted for hyperparameters, notably outperformed others in terms of R-squared and error metrics.
 
 ---
 
 ## **Rationale**
-As a leading ginger exporter, Peru must optimize its supply chain to meet global demands effectively. Traditional forecasting models, based only on historical data, miss rapid shifts in consumer interest and market conditions that modern data sources like Google Trends can highlight.
+As a leading ginger exporter, Peru must optimize its supply chain to meet global demands effectively. Traditional forecasting models, based only on historical data, miss rapid shifts in consumer interest and market conditions that modern data sources like Google Trends can highlight. It is essential to incorporate variables that are immediately available, such as Google Trends data, as other critical data like price and inflation figures are often published with a delay of several months. Integrating these timely data sources significantly enhances the accuracy and responsiveness of our forecasting models, providing a more adaptive approach to predicting market trends and making informed decisions.
 
 ---
 

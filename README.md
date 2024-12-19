@@ -54,6 +54,21 @@ Can the inclusion of Google Trends indicators improve the accuracy of lag-based 
 ---
 
 ## **Key Results**
+
+| Model              | R-squared | Adjusted R-squared | MSE          | RMSE       | MAE        | Explained Variance | Best Hyperparameters                                           | Features Included          |
+|--------------------|-----------|--------------------|--------------|------------|------------|--------------------|-----------------------------------------------------------------|----------------------------|
+| Linear Regression  | 0.783702  | 0.744375           | 8.584522e+11 | 9.265270e+05 | 730567.284 | 0.785636          | None                                                            | Exports12, Web, Images, News |
+| Lasso              | 0.783762  | 0.744446           | 8.582131e+11 | 9.263979e+05 | 730463.362 | 0.785699          | {'alpha': 100.0}                                               | Exports12, Web, Images, News |
+| Ridge              | 0.788310  | 0.749821           | 8.401653e+11 | 9.166053e+05 | 719015.584 | 0.790793          | {'alpha': 2.559547922699533}                                   | Exports12, Web, Images, News |
+| ElasticNet         | 0.789092  | 0.750745           | 8.370608e+11 | 9.149103e+05 | 717685.110 | 0.791701          | {'alpha': 0.29763514416313164, 'l1_ratio': 0.9}                | Exports12, Web, Images, News |
+| Random Forest      | 0.730479  | 0.666307           | 1.069687e+12 | 1.034257e+06 | 711209.146 | 0.742740          | {'max_depth': 20, 'min_samples_split': 2}                      | Exports12, YouTube, Web, News, Images |
+| Gradient Boosting  | 0.778954  | 0.750121           | 8.772988e+11 | 9.366423e+05 | 775524.042 | 0.782565          | {'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 200}   | Exports12, Web, YouTube |
+| XGBoost            | 0.812834  | 0.797237           | 7.428315e+11 | 8.618768e+05 | 699269.840 | 0.820288          | {'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 300}   | Exports12, Web, YouTube |
+| CatBoost           | 0.772750  | 0.731432           | 9.019185e+11 | 9.496939e+05 | 668807.548 | 0.778505          | {'depth': 6, 'iterations': 1000, 'learning_rate': 0.03}        | Exports12, YouTube, Web, News |
+
+
+
+
 - **Best Performing Model**: XGBoost, with the highest R-squared (0.812834) and the lowest RMSE (861,877), indicating its superior accuracy and predictive power.
 - **Feature Relevance**: Across models, `Exports12` (lagged exports), `Web`, and `YouTube` search indices proved most predictive of export volumes.
 - **Visual Analysis**: Observations vs. Predicted plots and Residuals demonstrate that models integrating Google Trends data yielded more accurate and consistent predictions than the baseline model using only historical data.

@@ -50,14 +50,18 @@ Can the inclusion of Google Trends indicators improve the accuracy of lag-based 
 - **Feature Importance**: Evaluated to identify the most influential predictors across models.
 - **Hyperparameter Tuning**: Applied especially to models like Lasso, where it significantly impacted performance.
 - **Evaluation Metrics**: R-squared, MSE, RMSE, MAE, and Explained Variance.
-- **Baseline Model**:
-The baseline model is a simple linear regression that uses the lagged export variable (Exports12) as the predictor. It serves as a comparison for more complex models. The resulting R-squared value is 0.7276, indicating a moderate fit of the model to the data.
 
 
 
 ---
 
 ## **Key Results**
+
+- **Baseline Model**:
+The baseline model is a simple linear regression that uses the lagged export variable (Exports12) as the predictor. It serves as a comparison for more complex models. The resulting R-squared value is 0.7276, indicating a moderate fit of the model to the data.
+
+
+
 
 | Model              | R-squared | Adjusted R-squared | RMSE       | MAE        | Best Hyperparameters                                           | Features Included          |
 |--------------------|-----------|--------------------|------------|------------|-----------------------------------------------------------------|----------------------------|
